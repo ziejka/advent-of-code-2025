@@ -1,0 +1,50 @@
+[
+  {
+    "label": "Debug Day 1 Part 1",
+    "adapter": "CodeLLDB",
+    "request": "launch",
+    "program": "${ZED_WORKTREE_ROOT}/target/debug/advent-of-code-2025",
+    "args": ["1", "1"],
+    "cwd": "${ZED_WORKTREE_ROOT}",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+    },
+  },
+  {
+    "label": "Debug Day 1 Part 2",
+    "adapter": "CodeLLDB",
+    "request": "launch",
+    "program": "${ZED_WORKTREE_ROOT}/target/debug/advent-of-code-2025",
+    "args": ["1", "2"],
+    "cwd": "${ZED_WORKTREE_ROOT}",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+    },
+  },
+  {
+    "label": "Debug Day 4 test",
+    "adapter": "CodeLLDB",
+    "request": "launch",
+    "program": "${ZED_WORKTREE_ROOT}/target/debug/advent-of-code-2025",
+    "args": ["4", "t"],
+    "cwd": "${ZED_WORKTREE_ROOT}",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+    },
+  },
+  {
+    "label": "Debug Day 4 Part 2",
+    "adapter": "CodeLLDB",
+    "request": "launch",
+    "program": "${ZED_WORKTREE_ROOT}/target/debug/advent-of-code-2025",
+    "args": ["4", "2"],
+    "cwd": "${ZED_WORKTREE_ROOT}",
+    "build": {
+      "command": "cargo",
+      "args": ["build"],
+    },
+  },
+]
